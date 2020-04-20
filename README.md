@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ut1ut2ggae2n708k?svg=true)](https://ci.appveyor.com/project/SurfDRED/allure)
