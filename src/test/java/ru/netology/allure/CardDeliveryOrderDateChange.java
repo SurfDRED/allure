@@ -33,7 +33,7 @@ public class CardDeliveryOrderDateChange {
         dataVst = GeneratorFaker.getPlanData(9);
         $("[data-test-id=date] input").setValue(dataVst);
         $$("button").find(exactText("Запланировать")).click();
-        $("[data-test-id=replan-notification]").waitUntil(Condition.visible, 7000);
+        $("[data-test-id=replan-notification]").waitUntil(Condition.visible, 4000);
         $$("[class=button__text]").find(exactText("Перепланировать")).click();
         $(byText("Успешно!")).waitUntil(visible,4000);
         $(byText("Успешно!")).shouldBe(visible);
